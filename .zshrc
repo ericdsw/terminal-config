@@ -38,3 +38,6 @@ ZSH_CUSTOM="$HOME/zsh-custom"
 
 # Github HUB configuration
 eval "$(hub alias -s)"
+
+# Configure language
+export LANG="en_US.UTF-8"
