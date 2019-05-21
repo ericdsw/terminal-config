@@ -1,0 +1,6 @@
+# Godot path
+export GODOT_PATH="/Applications/Godot.app/Contents/MacOS/"
+export GODOT_EXEC_PATH="$GODOT_PATH/Godot"
+
+# Additional PATH elements
+export PATH="/usr/local/opt/python/libexec/bin:/usr/local/sbin:$PATH"

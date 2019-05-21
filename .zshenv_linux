@@ -1,0 +1,3 @@
+# Godot path
+export GODOT_PATH="/opt/Godot3/"
+export GODOT_EXEC_PATH="$GODOT_PATH/Godot3"
