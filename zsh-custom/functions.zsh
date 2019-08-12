@@ -12,7 +12,7 @@ function gut() {
 
 # Runs specific gut test
 function gut_specific() {
-    gut -gtest=$1
+    gut -gselect=$1
 }
 
 # JSON pretty print
