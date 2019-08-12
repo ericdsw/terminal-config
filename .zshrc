@@ -7,7 +7,8 @@ DEFAULT_USER=`whoami`
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Source antigen configuration
-source ~/antigen/antigen.zsh
+ANTIGEN_PATH=~/Development/configuration/terminal-config
+source $ANTIGEN_PATH/antigen/antigen.zsh
 antigen init .antigenrc
 
 # Custom files
