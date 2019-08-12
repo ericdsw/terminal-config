@@ -7,9 +7,28 @@ DEFAULT_USER=`whoami`
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Source antigen configuration
-ANTIGEN_PATH=~/Development/configuration/terminal-config
+ANTIGEN_PATH=$HOME/Development/configuration/terminal-config
 source $ANTIGEN_PATH/antigen/antigen.zsh
-antigen init .antigenrc
+
+# Apply oh-my-zsh
+antigen use oh-my-zsh
+
+# Plugin definition
+antigen bundle git
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-completions
+
+# OSX specific configuration
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    antigen bundle osx
+fi
+
+# Theme definition
+antigen theme geometry-zsh/geometry
+
+# Apply antigen configuration
+antigen apply
 
 # Custom files
 source "$HOME/zsh-custom/aliases.zsh"
