@@ -1,10 +1,5 @@
-# # Download Antigen if not already present
-# if [ ! -f "~/.antigen" ]; then
-#     echo "Antigen not found, installing...."
-#     curl -L git.io/antigen > ~/antigen.zsh
-# fi
-
-# Link antigen
+# Antigen is present as a submodule of this repo, so adding it to the
+# system is a matter of linking it in the home directory
 ln -s $HOME/Development/configuration/terminal-config/antigen ~/antigen
 
 # Create symbolic links in the home directory

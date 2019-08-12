@@ -14,26 +14,6 @@ antigen init .antigenrc
 source "$HOME/zsh-custom/aliases.zsh"
 source "$HOME/zsh-custom/functions.zsh"
 
-# # Apply oh-my-zsh
-# antigen use oh-my-zsh
-
-# # Plugin definition
-# antigen bundle git
-# antigen bundle zsh-users/zsh-syntax-highlighting
-# antigen bundle zsh-users/zsh-autosuggestions
-# antigen bundle zsh-users/zsh-completions
-
-# # OSX specific configuration
-# if [[ "$OSTYPE" == "darwin"* ]]; then
-#     antigen bundle osx
-# fi
-
-# # Theme definition
-# antigen theme geometry-zsh/geometry
-
-# # Apply antigen configuration
-# antigen apply
-
 # Set a different folder for zsh customizations
 ZSH_CUSTOM="$HOME/zsh-custom"
 
