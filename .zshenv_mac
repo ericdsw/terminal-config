@@ -4,3 +4,4 @@ export GODOT_EXEC_PATH="$GODOT_PATH/Godot"
 
 # Additional PATH elements
 export PATH="/usr/local/opt/python/libexec/bin:/usr/local/sbin:$PATH"
+export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
