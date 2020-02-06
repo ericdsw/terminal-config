@@ -1,5 +1,7 @@
 # ZSH default configuration
 
+export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:"
+
 # Some themes need the default user
 DEFAULT_USER=`whoami`
 
