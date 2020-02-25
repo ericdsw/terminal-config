@@ -7,7 +7,7 @@ This project uses [Antigen](https://github.com/zsh-users/antigen) as it's plugin
 ## Installation
 
 To install, simply follow these steps:
-- Update local antigen git submodule with the `git submodule update` command.
+- Update local antigen git submodule with the `git submodule update --init` command.
 - Run the `./install.sh` script.
 - Run `source ~/.zshrc` to refresh the zsh configuration.
 
