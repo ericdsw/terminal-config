@@ -1,5 +1,5 @@
+# Path and Man variables
 export MANPATH="/usr/local/man:$MANPATH"
-
 export PATH="$HOME/bin:$PATH"
 
 if [[ -n $SSH_CONNECTION ]]; then

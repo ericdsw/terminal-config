@@ -1,3 +1,5 @@
 --ignore-dir=.idea/
 --ignore-dir=node_modules/
 --ignore-dir=plugins/
+--ignore-dir=build/
+--ignore-dir=Resources/Data
