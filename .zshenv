@@ -11,9 +11,9 @@ fi
 # Configurations for different OS
 case `uname` in
     Darwin)
-        source "$HOME/Development/configurations/terminal-config/.zshenv_mac"
+        source "$HOME/Development/configuration/terminal-config/.zshenv_mac"
         ;;
     Linux)
-        source "$HOME/Development/configurations/terminal-config/.zshenv_linux"
+        source "$HOME/Development/configuration/terminal-config/.zshenv_linux"
         ;;
 esac

@@ -9,7 +9,7 @@ DEFAULT_USER=`whoami`
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Source antigen configuration
-ANTIGEN_PATH=$HOME/Development/configurations/terminal-config
+ANTIGEN_PATH=$HOME/Development/configuration/terminal-config
 source $ANTIGEN_PATH/antigen/antigen.zsh
 
 # Apply oh-my-zsh
