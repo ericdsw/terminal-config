@@ -45,6 +45,16 @@ eval "$(hub alias -s)"
 # Configure language
 export LANG="en_US.UTF-8"
 
+# Configure searches
+if type rg &> /dev/null; then
+    alias rg="rg --hidden --glob '!.git'"
+    
+fi
+if type fd &> /dev/null; then
+    export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+    export FZF_DEFAULT_OPTS='-m --height 50% --border'
+fi
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 

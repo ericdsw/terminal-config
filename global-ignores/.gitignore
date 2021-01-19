@@ -1,0 +1,20 @@
+# Ignore ctags files
+tags
+
+# Editor/OS specific files
+.vscode
+.code-workspace
+.DS_Store
+Thumbs.db
+
+# Log files
+npm-debug.log*
+yarn-error.log*
+.nvimlog
+
+# Ignored folders
+/coverage
+/node_modules
+/exports
+/build
+

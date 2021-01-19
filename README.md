@@ -5,6 +5,25 @@ My current terminal configuration using oh-my-zsh on top of zsh.
 This project uses [Antigen](https://github.com/zsh-users/antigen) as it's plugin
 manager, which will be automatically installed if not already present in the system.
 
+## Dependencies
+
+Before continuing, make sure the following packages are installed:
+
+- [fzf](https://github.com/junegunn/fzf)
+- [fd](https://github.com/sharkdp/fd)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [hub](https://github.com/github/hub)
+
+You can use the following shortcuts to install them:
+
+```shell
+# MacOS
+brew install fzf fd ripgrep hub
+
+# Linux (Debian)
+sudo apt-get install fzf fd-find ripgrep hub
+```
+
 ## Installation
 
 To install, simply follow these steps:
