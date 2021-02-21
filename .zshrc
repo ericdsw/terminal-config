@@ -1,5 +1,9 @@
 # ZSH default configuration
 
+# Set a different folder for zsh customizations
+ZSH_CUSTOM="$HOME/zsh-custom"
+
+# Terminal color configuration
 export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:"
 
 # Some themes need the default user
@@ -32,12 +36,10 @@ antigen theme geometry-zsh/geometry
 # Apply antigen configuration
 antigen apply
 
-# Custom files
-source "$HOME/zsh-custom/aliases.zsh"
-source "$HOME/zsh-custom/functions.zsh"
-
-# Set a different folder for zsh customizations
-ZSH_CUSTOM="$HOME/zsh-custom"
+# Source all custom files found inside zsh-custom
+for file in $HOME/zsh-custom/*; do
+    source $file
+done
 
 # Github HUB configuration
 eval "$(hub alias -s)"

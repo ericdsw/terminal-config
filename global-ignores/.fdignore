@@ -2,3 +2,4 @@ node_modules
 addons
 exports
 Resources/Data
+.git
