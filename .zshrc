@@ -55,6 +55,12 @@ fi
 if type fd &> /dev/null; then
     export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
     export FZF_DEFAULT_OPTS='-m --height 50% --border'
+    export FZF_CTRL_T_COMMANT="$FZF_DEFAULT_COMMAND"
+fi
+if type fdfind &> /dev/null; then
+    export FZF_DEFAULT_COMMAND='fdfind --type f --hidden --follow --exclude .git'
+    export FZF_DEFAULT_OPTS='-m --height 50% --border'
+    export FZF_CTRL_T_COMMANT="$FZF_DEFAULT_COMMAND"
 fi
 
 export NVM_DIR="$HOME/.nvm"
