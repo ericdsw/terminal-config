@@ -63,6 +63,10 @@ if type fdfind &> /dev/null; then
     export FZF_CTRL_T_COMMANT="$FZF_DEFAULT_COMMAND"
 fi
 
+export SCRIPT_AES256_ENCRYPTION_KEY="3977CB97F3212865B2266EF41BAE87275A71FF30369CA0E2ABD99CA0CAA20B70"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
