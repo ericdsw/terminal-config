@@ -12,6 +12,7 @@ fi
 case `uname` in
     Darwin)
         source "$HOME/Development/configuration/terminal-config/.zshenv_mac"
+        export PATH="$HOME/bin:/opt/homebrew/opt/openjdk/bin:$PATH"
         ;;
     Linux)
         source "$HOME/Development/configuration/terminal-config/.zshenv_linux"

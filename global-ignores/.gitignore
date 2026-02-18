@@ -15,6 +15,5 @@ yarn-error.log*
 # Ignored folders
 /coverage
 /node_modules
-/exports
 /build
 
