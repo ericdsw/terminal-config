@@ -1,3 +1,14 @@
 # Godot path
-export GODOT_PATH="/opt/Godot3/"
-export GODOT_EXEC_PATH="$GODOT_PATH/Godot3"
+export GODOT_PATH="$HOME/Applications/Godot"
+
+# Godot executable path
+export GODOT_EXEC_PATH="$GODOT_PATH/Godot_4_3.x86_64"
+
+# Support for running zed from the command line
+export PATH="$HOME/.local/bin:$PATH"
+
+# Support for the flutter sdk
+export PATH="$HOME/configuration/flutter-sdk/flutter/bin:$PATH"
+
+# Use openjdk
+export PATH="$HOME/bin:/opt/homebrew/opt/openjdk/bin:$PATH"
