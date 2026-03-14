@@ -2,12 +2,15 @@
 ln -s -f $HOME/Development/configuration/terminal-config/.antigenrc ~/.antigenrc
 ln -s -f $HOME/Development/configuration/terminal-config/.ackrc ~/.ackrc
 ln -s -f $HOME/Development/configuration/terminal-config/.zshenv ~/.zshenv
-ln -s -f $HOME/Development/configuration/terminal-config/.zshrc_secrets ~/.zshrc_secrets
+ln -s -f $HOME/Development/configuration/terminal-config/.p10k.zsh ~/.p10k.zsh
 
 # Make sure that .zshrc_secrets exists before creating the symlink
 if [ -e "$HOME/.zshrc_secrets" ]; then
-    ln -s -f $HOME/Development/configuration/terminal-config/.zshrc ~/.zshrc
+    ln -s -f $HOME/Development/configuration/terminal-config/.zshrc_secrets ~/.zshrc_secrets
 fi
+
+ln -s -f $HOME/Development/configuration/terminal-config/.zshrc ~/.zshrc
+
 echo "Created configuration symlinks"
 
 # Step 2: Create symlinks for global ignore files
