@@ -1,6 +1,6 @@
 # Path and Man variables
 export MANPATH="/usr/local/man:$MANPATH"
-export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/bin:$HOME/.composer/vendor/bin:$PATH"
 
 if [[ -n $SSH_CONNECTION ]]; then
     export EDITOR='vim'

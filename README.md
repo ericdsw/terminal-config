@@ -12,16 +12,15 @@ Before continuing, make sure the following packages are installed:
 - [fzf](https://github.com/junegunn/fzf)
 - [fd](https://github.com/sharkdp/fd)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
-- [hub](https://github.com/github/hub)
 
 You can use the following shortcuts to install them:
 
 ```shell
 # MacOS
-brew install fzf fd ripgrep hub
+brew install fzf fd ripgrep
 
 # Linux (Debian)
-sudo apt-get install fzf fd-find ripgrep hub
+sudo apt install fzf fd-find ripgrep
 ```
 
 ## Installation
